@@ -1,0 +1,13 @@
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-around;
+    gap: 2%;
+
+    height: 100%;
+}
+
+.tarjeta{
+    margin: 1%
+}
