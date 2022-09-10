@@ -7,7 +7,14 @@
     width: 99.8vw;
 }
 
-.container{ 
+.header_container{
+    /* box-shadow: 0px -15px 45px var(--accent-color); */
+    box-shadow: 0px 50px 100px #000000;
+
+    z-index: 1;
+}
+
+.container{
     flex-grow: 1;    
 }
 

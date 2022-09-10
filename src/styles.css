@@ -2,7 +2,7 @@
 
 :root{
     --accent-color: #c2185b;
-    --background-color: #1515157c;
+    --background-color: #b4888813;
     
     --text-color: rgb(210, 192, 192);
 }
@@ -30,7 +30,8 @@ body {
 }
 
 .page{
-    background: url(assets/img/fondo.svg);
+    background: url(assets/img/fondo_page.png);
+    background-size: cover;
     padding: 2%;
 }
 .tarjeta{

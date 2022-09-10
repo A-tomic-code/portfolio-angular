@@ -4,7 +4,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import {MatButtonModule} from '@angular/material/button';
 import {MatTabsModule} from '@angular/material/tabs';
 import {MatIconModule} from '@angular/material/icon';
-import {MatCardModule} from '@angular/material/card'; 
+import { MatInputModule } from '@angular/material/input'; 
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -31,7 +31,7 @@ import { ContactoComponent } from './pages/contacto/contacto.component';
     MatButtonModule,
     MatTabsModule,
     MatIconModule,
-    MatCardModule
+    MatInputModule
   ],
   providers: [],
   bootstrap: [AppComponent]
