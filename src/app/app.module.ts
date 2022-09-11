@@ -14,8 +14,11 @@ import { FooterComponent } from './components/footer/footer.component';
 import { SobremiComponent } from './pages/sobremi/sombremi.component';
 import { MitrabajoComponent } from './pages/mitrabajo/mitrabajo.component';
 import { ContactoComponent } from './pages/contacto/contacto.component';
+
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { ToastrModule } from 'ngx-toastr';
+
 
 
 
@@ -38,6 +41,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     MatIconModule,
     MatInputModule,
     HttpClientModule,
+    ToastrModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]
