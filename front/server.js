@@ -6,4 +6,4 @@ app.get('/*', (req, res) => {
     res.sendFile('index.html', {root: __dirname + '/dist/portfolio'});
 });
 
-app.listen(proccess.env.PORT || 8080);
+app.listen(process.env.PORT || 8080);
