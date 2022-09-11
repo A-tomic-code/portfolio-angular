@@ -21,6 +21,7 @@
     background-image: url(../../../assets/img/IMG_4313.JPEG);
     background-position: center;
     background-size: contain;
+    border-radius: 5px;
 
 }.tarjeta__contenido{
     display: flex;

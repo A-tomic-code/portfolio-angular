@@ -14,6 +14,10 @@ import { FooterComponent } from './components/footer/footer.component';
 import { SobremiComponent } from './pages/sobremi/sombremi.component';
 import { MitrabajoComponent } from './pages/mitrabajo/mitrabajo.component';
 import { ContactoComponent } from './pages/contacto/contacto.component';
+import { HttpClientModule } from '@angular/common/http';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+
+
 
 @NgModule({
   declarations: [
@@ -28,10 +32,12 @@ import { ContactoComponent } from './pages/contacto/contacto.component';
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
+    FormsModule,
     MatButtonModule,
     MatTabsModule,
     MatIconModule,
-    MatInputModule
+    MatInputModule,
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
