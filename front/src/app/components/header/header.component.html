@@ -1,0 +1,49 @@
+<header class="header">
+
+    <nav class="nav nav__main">
+
+        <div class="top-buttons">
+            <button mat-raised-button color="accent">Ver curriculum</button>
+            <button mat-raised-button color="primary">Contactame</button>
+        </div>
+
+         <div class="row1">
+
+            <div class="nav__logo">
+
+                <div class="logo">
+                    <img src="../../assets/img/logo-pink-cyan.svg">
+                </div>
+
+                
+                
+            </div>
+
+            <div class="nav__display">
+                
+                <p class="display__title">Atomic code</p>
+            
+                <div></div>
+            </div>
+         
+        </div>
+
+
+         <div class="row2">
+            <span class="display-trigger"> HTML & CSS</span>
+            <span class="display-trigger"> Node</span>
+            <span class="display-trigger"> Javascript</span>
+            <span class="display-trigger"> Angular</span>
+            <span class="display-trigger"> MySQL & MongoDB</span>
+         </div>
+
+         <div class="row3">
+            <mat-tab-group mat-align-tabs="center" class="tabs" (selectedIndexChange)="showSection($event)">
+                <mat-tab label="Sobre mi"></mat-tab>
+                <mat-tab label="Mi trabajo"></mat-tab>
+                <mat-tab label="Contacto"></mat-tab>
+            </mat-tab-group>
+         </div>
+    </nav>
+  
+</header>

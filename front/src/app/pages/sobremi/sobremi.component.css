@@ -1,0 +1,52 @@
+.page{
+    display: flex;
+    flex-direction: column;
+
+    justify-content: flex-start;
+    align-items: center;
+
+    gap: 30px;
+}
+
+.row{
+    display: flex;
+    justify-content: space-around;
+
+    gap: 2%
+}
+
+.foto{
+    display: flex;
+    justify-content: center;
+
+    background: var(--background-color);
+    height: 400px;
+    width: 400px;
+    
+    border-radius: 5px;
+
+    clip-path: circle(50% at 50% 50%);
+}
+
+.foto img {
+    clip-path: circle(40% at 50% 50%);
+
+    transform: scale(1.2);
+}
+.tarjeta{
+    display: flex;
+    flex-direction: column;
+}
+
+.page__titulo{
+    height: 100px;
+}
+.info{
+    display: flex;
+    justify-content: center;
+
+    width: 70%;
+
+    font-size: 32px;
+    line-height: 120%;
+}
