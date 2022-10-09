@@ -18,6 +18,7 @@ import { ContactoComponent } from './pages/contacto/contacto.component';
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { ToastrModule } from 'ngx-toastr';
+import { CardProjectComponent } from './components/card-project/card-project.component';
 
 
 
@@ -29,7 +30,8 @@ import { ToastrModule } from 'ngx-toastr';
     FooterComponent,
     SobremiComponent,
     MitrabajoComponent,
-    ContactoComponent
+    ContactoComponent,
+    CardProjectComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,30 @@
+.tarjeta{
+    display: flex;
+    flex-direction: column;
+    margin: 1%;
+    height: 600px;
+    gap: 1%;
+}.tarjeta__titulo{
+    font-size: 32px;
+}.tarjeta__imagen{
+    height: 59%;
+    background-image: url(../../../assets/img/IMG_4313.JPEG);
+    background-position: center;
+    background-size: contain;
+    border-radius: 5px;
+
+}.tarjeta__contenido{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 21%;
+
+    text-align: center;
+    font-size: 20px;
+    /* border: 1px solid yellow; */
+}.tarjeta__botones{
+    display: flex;
+    justify-content: flex-end;
+    gap : 20px;
+    height: 7%;
+}
