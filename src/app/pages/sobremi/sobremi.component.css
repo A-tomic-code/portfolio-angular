@@ -1,15 +1,18 @@
 .page{
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
 
     justify-content: flex-start;
     align-items: center;
 
+    padding: 10vmin 5vmin;
+
     gap: 30px;
 }
 
-.row{
+.col{
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
 
     gap: 2%
@@ -33,20 +36,14 @@
 
     transform: scale(1.2);
 }
-.tarjeta{
-    display: flex;
-    flex-direction: column;
-}
 
 .page__titulo{
     height: 100px;
 }
 .info{
-    display: flex;
-    justify-content: center;
-
-    width: 70%;
+    width: 100%;
 
     font-size: 32px;
     line-height: 120%;
+    text-align: center;
 }
