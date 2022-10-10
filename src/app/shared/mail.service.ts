@@ -5,7 +5,7 @@ import { Injectable } from '@angular/core';
   providedIn: 'root',
 })
 export class MailService {
-  private url: string = 'https://atomic-code-api.herokuapp.com/';
+  private url: string = 'https://atomic-code-api.herokuapp.com';
 
   constructor(private http: HttpClient) {}
 
