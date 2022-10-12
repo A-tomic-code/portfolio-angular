@@ -1,15 +1,16 @@
 <div class="tarjeta" data-aos="zoom-out" data-aos-easing="ease-in" data-aos-duration="300">
 
     <p class="tarjeta__titulo">
-        {{info.name}}
+        {{info.title}}
     </p>
 
-    <div class="tarjeta__imagen tarjeta__imagen--mongo"></div>
+    <div class="tarjeta__imagen" #img></div>
 
     <p class="tarjeta__contenido">{{info.desc}}</p>
 
     <div class="tarjeta__botones">
-        <button mat-raised-button color="accent">Ver en GitHub</button>
+        <app-button-git [info]="info"></app-button-git>
+        <button mat-raised-button color="accent" (click)="goGitHub()">Ver en GitHub</button>
         <button mat-raised-button color="primary">Ver como funciona</button>
     </div>
 

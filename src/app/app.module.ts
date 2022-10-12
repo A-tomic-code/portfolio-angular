@@ -19,6 +19,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { ToastrModule } from 'ngx-toastr';
 import { CardProjectComponent } from './components/card-project/card-project.component';
+import { ButtonGitComponent } from './components/form-controls/button-git/button-git.component';
 
 
 
@@ -31,7 +32,8 @@ import { CardProjectComponent } from './components/card-project/card-project.com
     SobremiComponent,
     MitrabajoComponent,
     ContactoComponent,
-    CardProjectComponent
+    CardProjectComponent,
+    ButtonGitComponent
   ],
   imports: [
     BrowserModule,

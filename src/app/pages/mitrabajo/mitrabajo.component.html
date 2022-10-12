@@ -3,7 +3,11 @@
 <div class="content">
     <p class="page__titulo" data-aos="fade-down">Mi<span class="page__titulo--accent">trabajo</span></p>
 
-    <div class="tarjeta" data-aos="zoom-out"data-aos-easing="ease-in" data-aos-duration="300">
+    <div *ngFor="let project of allprojects">
+        <app-card-project (onClickGitHub)="goGitHub($event)" [info]="project"></app-card-project>
+    </div>
+
+    <!-- <div class="tarjeta" data-aos="zoom-out"data-aos-easing="ease-in" data-aos-duration="300">
 
         <p class="tarjeta__titulo">
             App FULL-STACK MongoDB
@@ -52,7 +56,7 @@
             <button mat-raised-button color="primary">Ver como funciona</button>
         </div>
     
-    </div>
+    </div> -->
 
 </div>
 
