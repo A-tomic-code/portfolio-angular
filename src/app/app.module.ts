@@ -20,6 +20,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { ToastrModule } from 'ngx-toastr';
 import { CardProjectComponent } from './components/card-project/card-project.component';
 import { ButtonGitComponent } from './components/form-controls/button-git/button-git.component';
+import { NgParticlesModule } from 'ng-particles';
 
 
 
@@ -45,7 +46,9 @@ import { ButtonGitComponent } from './components/form-controls/button-git/button
     MatIconModule,
     MatInputModule,
     HttpClientModule,
-    ToastrModule.forRoot()
+    ToastrModule.forRoot(),
+    NgParticlesModule
+    
   ],
   providers: [],
   bootstrap: [AppComponent]

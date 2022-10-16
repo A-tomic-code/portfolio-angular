@@ -60,3 +60,8 @@
     line-height: 120%;
     text-align: center;
 }
+
+ng-particles{
+    /* position: absolute; */
+    z-index: -1;
+}
