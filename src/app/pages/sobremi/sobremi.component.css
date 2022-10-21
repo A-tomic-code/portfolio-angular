@@ -31,10 +31,12 @@
     
     border-radius: 5px;
 
+    -webkit-clip-path: circle(50% at 50% 50%);
     clip-path: circle(50% at 50% 50%);
 }
 
 .foto img {
+    -webkit-clip-path: circle(40% at 50% 50%);
     clip-path: circle(40% at 50% 50%);
 
     transform: scale(1.2);

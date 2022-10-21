@@ -200,6 +200,7 @@ em.circle.circle--left {
 ng-particles{
     position: absolute;
     z-index: 1;
+    pointer-events: none;
 }
 
 @keyframes rotate {

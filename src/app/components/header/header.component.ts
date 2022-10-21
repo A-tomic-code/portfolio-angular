@@ -63,7 +63,7 @@ export class HeaderComponent implements OnInit {
           default: OutMode.bounce
         },
         random: false,
-        speed: 2,
+        speed: 1,
         straight: false
       },
       number: {
@@ -71,7 +71,7 @@ export class HeaderComponent implements OnInit {
           enable: true,
           area: 800
         },
-        value: 20
+        value: 30
       },
       opacity: {
         value: 0.5
