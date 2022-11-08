@@ -36,10 +36,12 @@
 }
 
 .foto img {
-    -webkit-clip-path: circle(40% at 50% 50%);
-    clip-path: circle(40% at 50% 50%);
+    border-radius: 50%;
 
-    transform: scale(1.2);
+    object-fit: contain;
+
+    transform: scale(1.5);
+    -webkit-transform: scale(1.5);
 }
 
 .page__titulo{

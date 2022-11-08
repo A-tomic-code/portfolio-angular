@@ -71,7 +71,7 @@ export class HeaderComponent implements OnInit {
           enable: true,
           area: 800
         },
-        value: 30
+        value: 15
       },
       opacity: {
         value: 0.5
